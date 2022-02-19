@@ -43,6 +43,23 @@ const Li8 = document.querySelectorAll('.book')[2].querySelectorAll('ul > li')[7]
 const Li9 = document.querySelectorAll('.book')[2].querySelectorAll('ul > li')[8];
 const Li10 = document.querySelectorAll('.book')[2].querySelectorAll('ul > li')[9];
 
+// 2 -ая книг0
+const element1 = document.querySelectorAll('.book')[0].querySelectorAll('ul > li')[0];
+const element2 = document.querySelectorAll('.book')[0].querySelectorAll('ul > li')[1];
+const element3 = document.querySelectorAll('.book')[0].querySelectorAll('ul > li')[2];
+const element4 = document.querySelectorAll('.book')[0].querySelectorAll('ul > li')[3];
+const element5 = document.querySelectorAll('.book')[0].querySelectorAll('ul > li')[4];
+const element6 = document.querySelectorAll('.book')[0].querySelectorAll('ul > li')[5];
+const element7 = document.querySelectorAll('.book')[0].querySelectorAll('ul > li')[6];
+const element8 = document.querySelectorAll('.book')[0].querySelectorAll('ul > li')[7];
+const element9 = document.querySelectorAll('.book')[0].querySelectorAll('ul > li')[8];
+const element10 = document.querySelectorAll('.book')[0].querySelectorAll('ul > li')[9];
+const element11 = document.querySelectorAll('.book')[0].querySelectorAll('ul > li')[10];
+
+element3.before(element4);
+element4.after(element7);
+element11.before(element3);
+element5.before(element9);
 
 // 1
 elem1.before(elem2);
